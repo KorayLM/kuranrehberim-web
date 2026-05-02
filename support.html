@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kuran Rehberim — Destek, sıkça sorulanlar ve iletişim.">
+    <title>Destek — Kuran Rehberim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kuran Rehberim</h1>
+    <p class="tagline">Destek &amp; Sıkça Sorulanlar</p>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="privacy.html">Gizlilik</a>
+        <a href="support.html">Destek</a>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Doğrudan İletişim</h2>
+        <p>Aklında bir soru, geri bildirim veya hata raporu varsa bize doğrudan ulaş:</p>
+        <p style="font-size: 18px;">📧 <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+        <p style="color: var(--muted); font-size: 13px;">Genelde 24-48 saat içinde cevap veriyoruz.</p>
+    </section>
+
+    <section>
+        <h2>Sıkça Sorulan Sorular</h2>
+
+        <details>
+            <summary>Uygulama gerçekten ücretsiz mi?</summary>
+            <p>Evet, tamamen ücretsiz ve reklamsız. İçinde uygulama içi satın alma yok. İstersen <a href="#destek">vakıf modeli</a> aracılığıyla destekleyebilirsin.</p>
+        </details>
+
+        <details>
+            <summary>Verilerim güvende mi? Kim görüyor?</summary>
+            <p>Verilerin sadece sana ait. Kayıt olursan e-posta + Apple ID üzerinden Supabase'de, iCloud Sync etkinse Apple'ın iCloud altyapısında saklanır. Konum hiçbir zaman cihazından çıkmaz. Detaylar için <a href="privacy.html">Gizlilik Politikası</a>'na bak.</p>
+        </details>
+
+        <details>
+            <summary>Namaz vakitleri yanlış görünüyor, neden?</summary>
+            <p>Üç sebebi olabilir: (1) Konum izni vermemişsin — iOS Ayarlar → Kuran Rehberim → Konum'u "Uygulamayı kullanırken" yap. (2) Cihazın saat dilimi yanlış. (3) Mezhep tercihi farklı (Hanefî/Şâfiî için ikindi vakti farklı hesaplanır — sonraki sürümde Profile'a eklenecek).</p>
+        </details>
+
+        <details>
+            <summary>Kuran sesleri çalmıyor, ne yapmalıyım?</summary>
+            <p>İlk indirme internet gerektirir. Sonraki dinlemelerde offline çalışır. Eğer hâlâ sorun varsa: Profile → Depolama → "Önbelleği Temizle" deneyebilirsin. Hâlâ olmuyorsa <a href="mailto:korayfloresh@gmail.com">bize yaz</a>.</p>
+        </details>
+
+        <details>
+            <summary>Hesabımı nasıl silerim?</summary>
+            <p>Profile sekmesinin altında "Çıkış Yap" yanında "Hesabı Tamamen Sil" seçeneği var (yakında). O ana kadar bize <a href="mailto:korayfloresh@gmail.com">e-posta atarsan</a> 30 gün içinde tüm verilerini silmemizi talep edebilirsin (KVKK / GDPR hakkın).</p>
+        </details>
+
+        <details>
+            <summary>Apple Watch desteği var mı?</summary>
+            <p>Şu an yok. Yakında Apple Watch versiyonunda kıble pusulası, namaz vakti hatırlatıcısı ve zikir sayacı olacak.</p>
+        </details>
+
+        <details>
+            <summary>Kelime tahlili sadece bazı surelerde, neden?</summary>
+            <p>Her ayet için kelime kelime Türkçe tahlil hazırlamak zaman alıyor. Şu an Fâtiha, Asr, Kevser, İhlâs, Felak, Nâs, Bakara'nın anahtar ayetleri, Yâsîn'in ilk ve son bölümleri, Mülk, Rahmân, İnşirâh hazır. Her güncellemede yenileri ekleniyor.</p>
+        </details>
+
+        <details>
+            <summary>Reklam görmüyorum, sürpriz bir şey çıkar mı?</summary>
+            <p>Reklam yok ve hiç olmayacak. Bu uygulama "vakıf modeli" ile yönetiliyor: ücretsiz kullan, isteyen bağışla destekler. Apple'ın "ücretsiz ama reklamlı" modeli bizim değerlerimize uygun değil.</p>
+        </details>
+
+        <details>
+            <summary>Cihazlar arası senkron çalışmıyor?</summary>
+            <p>Senkron için iCloud Sync'in açık olması ve aynı Apple ID ile her iki cihazda da giriş yapmış olman gerekir. iOS Ayarlar → Apple ID → iCloud → "Kuran Rehberim" anahtarının açık olduğundan emin ol.</p>
+        </details>
+
+        <details>
+            <summary>Namaz vakitleri hangi yöntemle hesaplanıyor?</summary>
+            <p>Diyanet İşleri Başkanlığı'nın da kullandığı astronomik hesap (Fajr 18°, Isha 17°). Hanefî mezhebi için ikindi vakti gölge oranı 2× alınır.</p>
+        </details>
+
+    </section>
+
+    <section id="destek">
+        <h2>💚 Vakıf Modeli — Bize Destek Ol</h2>
+        <p>Kuran Rehberim ücretsiz ve reklamsız kalmaya devam ediyor. Sunucu giderleri, içerik geliştirme, yeni özellikler için <strong>her bir bağış</strong> motivasyonumuzu artırır.</p>
+
+        <h3>Nasıl destek olabilirsin?</h3>
+        <ul>
+            <li><strong>App Store'da 5 yıldız + yorum yaz</strong> — bu en büyük desteğin (ücretsiz)</li>
+            <li><strong>Arkadaşlarınla paylaş</strong> — sosyal medya, mesaj, ağız ağıza</li>
+            <li><strong>Doğrudan bağış</strong> — IBAN ile veya BuyMeACoffee/Patreon üzerinden (yakında)</li>
+            <li><strong>Geri bildirim ver</strong> — bir hata bul, bir özellik öner, bize yaz</li>
+        </ul>
+
+        <p style="margin-top: 16px;">Bağış için iletişim: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+    </section>
+
+    <section>
+        <h2>Hata Bildir</h2>
+        <p>Bir hata mı buldun? Aşağıdaki bilgilerle birlikte <a href="mailto:korayfloresh@gmail.com?subject=Kuran%20Rehberim%20Hata%20Bildirimi">bize yaz</a>:</p>
+        <ul>
+            <li>iPhone modeli ve iOS sürümü</li>
+            <li>Uygulama sürümü (Profile → en altta)</li>
+            <li>Hatayı nasıl tetiklediğin (adım adım)</li>
+            <li>Mümkünse ekran görüntüsü</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Özellik İste</h2>
+        <p>Yeni bir özellik mi istiyorsun? Bize yaz, kullanıcı isteklerini yol haritasına ekliyoruz. Şu anda planlananlar:</p>
+        <ul>
+            <li>Apple Watch uygulaması</li>
+            <li>Hatim grupları (arkadaşlarınla birlikte 30 cüzü paylaşma)</li>
+            <li>Peygamber kıssaları sesli anlatımlı</li>
+            <li>iPad optimize layout</li>
+            <li>Çoklu dil desteği (Arapça, İngilizce ileri seviye)</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Asil Koray Alma — Kuran Rehberim
+    <br>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="privacy.html">Gizlilik</a>
+    <a href="support.html">Destek</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+/* Kuran Rehberim — paylaşılan stil */
+
+:root {
+    --green-dark: #1a4d3a;
+    --green: #2d7a52;
+    --green-light: #5fa080;
+    --bg: #fafaf6;
+    --card: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6e6e73;
+    --border: #e5e5ea;
+    --max-width: 760px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--green); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--green-dark), var(--green));
+    color: #fff;
+    padding: 28px 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: 700;
+}
+header .tagline {
+    font-size: 14px;
+    opacity: 0.9;
+    margin: 0;
+}
+header nav {
+    margin-top: 14px;
+    font-size: 14px;
+}
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    opacity: 0.85;
+}
+header nav a:hover { opacity: 1; text-decoration: underline; }
+
+/* Container */
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 32px 20px 60px;
+}
+
+/* Sections */
+section {
+    background: var(--card);
+    padding: 24px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    border: 1px solid var(--border);
+}
+section h2 {
+    color: var(--green-dark);
+    font-size: 20px;
+    margin: 0 0 12px;
+    border-bottom: 2px solid var(--green-light);
+    padding-bottom: 8px;
+}
+section h3 {
+    color: var(--green-dark);
+    font-size: 16px;
+    margin: 18px 0 6px;
+}
+section p { margin: 8px 0; }
+section ul { padding-left: 20px; }
+section li { margin-bottom: 4px; }
+
+/* Hero */
+.hero {
+    text-align: center;
+    background: linear-gradient(135deg, var(--green-light), var(--green));
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.hero h1 {
+    font-size: 32px;
+    margin: 0 0 8px;
+    font-weight: 800;
+}
+.hero p {
+    font-size: 17px;
+    opacity: 0.95;
+    margin: 0 0 20px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-store-button {
+    display: inline-block;
+    background: #000;
+    color: #fff !important;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.app-store-button:hover { opacity: 0.85; }
+
+/* Feature grid */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 12px;
+}
+.feature {
+    padding: 14px;
+    background: rgba(45, 122, 82, 0.08);
+    border-radius: 10px;
+}
+.feature .ico {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 6px;
+}
+.feature strong {
+    color: var(--green-dark);
+    font-size: 15px;
+    display: block;
+    margin-bottom: 4px;
+}
+.feature p { font-size: 13px; color: var(--muted); margin: 0; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 30px;
+}
+footer a {
+    color: var(--muted);
+    margin: 0 8px;
+}
+
+/* Toggle (TR/EN) */
+.lang-switch {
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.lang-switch button {
+    background: none;
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--muted);
+    margin-left: 4px;
+    font-family: inherit;
+}
+.lang-switch button.active {
+    background: var(--green);
+    color: #fff;
+    border-color: var(--green);
+}
+
+/* SSS / FAQ */
+details {
+    background: var(--card);
+    padding: 14px 16px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 1px solid var(--border);
+}
+details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--green-dark);
+    list-style: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after {
+    content: "+";
+    float: right;
+    font-size: 18px;
+    color: var(--muted);
+}
+details[open] summary::after { content: "−"; }
+details p { margin-top: 8px; color: var(--text); }
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero h1 { font-size: 26px; }
+    .hero p  { font-size: 15px; }
+    section h2 { font-size: 18px; }
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kuran Rehberim — Privacy Policy / Gizlilik Politikası. KVKK + GDPR uyumlu.">
+    <title>Gizlilik Politikası — Kuran Rehberim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Kuran Rehberim</h1>
+    <p class="tagline">Gizlilik Politikası / Privacy Policy</p>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="privacy.html">Gizlilik</a>
+        <a href="support.html">Destek</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="lang-switch">
+        <button id="btn-tr" class="active" onclick="setLang('tr')">Türkçe</button>
+        <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+
+    <!-- TÜRKÇE -->
+    <div id="content-tr">
+
+        <section>
+            <p style="color: var(--muted); font-size: 13px;">Son güncelleme: <strong>28 Nisan 2026</strong></p>
+            <p>Kuran Rehberim ("uygulama", "biz") olarak gizliliğine değer veriyoruz. Bu politika; uygulamayı kullandığında hangi verilerin toplandığını, neden işlendiğini ve sahip olduğun hakları açıklar.</p>
+        </section>
+
+        <section>
+            <h2>Geliştirici</h2>
+            <p>
+                <strong>Asil Koray Alma</strong><br>
+                İletişim: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a><br>
+                Türkiye
+            </p>
+        </section>
+
+        <section>
+            <h2>Topladığımız Veriler</h2>
+
+            <h3>1) Hesap bilgileri (sadece sen kayıt olursan)</h3>
+            <ul>
+                <li>E-posta adresi (Apple Sign-in veya e-posta + şifre kaydında)</li>
+                <li>Görünen ad (kendin girersen)</li>
+                <li>Apple User ID (Sign in with Apple kullanırsan)</li>
+            </ul>
+            <p>Bu veriler kimlik doğrulama ve cihazlar arası senkron için gereklidir.</p>
+
+            <h3>2) Konum verisi (izin verirsen)</h3>
+            <ul>
+                <li>Yaklaşık konum (kaba)</li>
+                <li>Sadece namaz vakti hesabı ve en yakın camiyi bulmak için kullanılır.</li>
+                <li><strong>Konum cihazından çıkmaz, sunucularımıza kesinlikle gönderilmez.</strong></li>
+                <li>İstediğin zaman iOS Ayarlar → Kuran Rehberim → Konum'dan kapatabilirsin.</li>
+            </ul>
+
+            <h3>3) Uygulama içi tercihler</h3>
+            <ul>
+                <li>Favori ayetler, hatim ilerlemen, esma sayaçların, kâri tercihin, doğum tarihin, mezhep ve dil seçimi gibi bilgiler.</li>
+                <li>Bu veriler önce cihazında, kayıt olduysan ayrıca güvenli sunucumuzda (Supabase) saklanır.</li>
+                <li>iCloud Sync etkinse Apple'ın iCloud altyapısında özel container'ında tutulur (Apple gizlilik kuralları geçerlidir).</li>
+            </ul>
+
+            <h3>4) Bildirim tokeni (izin verirsen)</h3>
+            <ul>
+                <li>Push bildirim göndermek için Apple Push Notification servisinin verdiği rastgele token.</li>
+                <li>Token kişisel bilgiyle eşleştirilmez.</li>
+            </ul>
+
+            <h3>5) Otomatik teknik veriler</h3>
+            <ul>
+                <li>Uygulama sürümü, iOS sürümü, çökme raporları (Apple TestFlight / Crash Reports).</li>
+                <li><strong>Reklam tanımlayıcısı (IDFA) TOPLANMIYOR.</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Kullanmadığımız Şeyler</h2>
+            <ul>
+                <li>Reklam ağları kullanmıyoruz.</li>
+                <li>Üçüncü taraf izleyiciler (Google Analytics, Facebook Pixel vb.) yok.</li>
+                <li>Verilerini hiçbir şirkete satmıyor, kiralamıyoruz.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Verileri Nasıl Kullanıyoruz</h2>
+            <ul>
+                <li>Kimlik doğrulama ve hesabını korumak</li>
+                <li>Senkron (favoriler, hatim, kaldığın yer) işlemlerini gerçekleştirmek</li>
+                <li>Namaz vakti hesabı ve en yakın cami özelliklerini sunmak</li>
+                <li>Sen istediğinde günlük ayet ve namaz vakti hatırlatıcısı göndermek</li>
+                <li>Çökme raporlarıyla hataları gidermek</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Taraflar</h2>
+            <p>Sınırlı veri paylaştığımız üçüncü taraf hizmet sağlayıcılar:</p>
+            <ul>
+                <li><strong>Apple Inc.</strong> — Sign in with Apple, Push Notifications, iCloud, App Store, TestFlight</li>
+                <li><strong>Supabase Inc.</strong> — auth ve veritabanı altyapısı (yalnızca kayıt olursan)</li>
+                <li><strong>AlQuran Cloud API</strong> — Kur'an metni ve meal kaynağı (anonim istek, kişisel veri gönderilmez)</li>
+            </ul>
+            <p>Bunların her biri kendi gizlilik politikalarına tabidir.</p>
+        </section>
+
+        <section>
+            <h2>Veri Saklama Süresi</h2>
+            <p>Hesap silindiğinde tüm verilerin <strong>30 gün içinde</strong> sunucularımızdan kaldırılır. Cihazındaki yerel veriler uygulamayı silmenle birlikte silinir.</p>
+        </section>
+
+        <section>
+            <h2>Senin Hakların (KVKK, GDPR)</h2>
+            <ul>
+                <li>Verilerine erişme</li>
+                <li>Düzeltilmesini isteme</li>
+                <li>Tamamen silinmesini isteme (hesabı kapatma)</li>
+                <li>İşlemeye itiraz etme</li>
+                <li>Veri taşınabilirliği</li>
+            </ul>
+            <p>Talep için: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h2>Çocukların Gizliliği</h2>
+            <p>Uygulama 4+ yaş kategorisinde olup tüm yaş gruplarına uygundur. 13 yaş altı çocuklardan bilerek veri toplamayız. Ebeveyn izniyle kullanılması önerilir.</p>
+        </section>
+
+        <section>
+            <h2>Veri Güvenliği</h2>
+            <ul>
+                <li>Sunucu iletişimi HTTPS/TLS ile şifrelenir.</li>
+                <li>Şifreler Supabase tarafından bcrypt ile hashlenir, asla düz metin saklanmaz.</li>
+                <li>Cihazdaki hassas tokenler iOS Keychain'de tutulur.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Politikadaki Değişiklikler</h2>
+            <p>Bu politikada önemli bir değişiklik olursa "Son güncelleme" tarihi yenilenir ve uygulama içinden bilgilendirme yapılır.</p>
+        </section>
+
+        <section>
+            <h2>İletişim</h2>
+            <p>Sorularınız ve veri talepleriniz için: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+        </section>
+
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="content-en" style="display:none;">
+
+        <section>
+            <p style="color: var(--muted); font-size: 13px;">Last updated: <strong>April 28, 2026</strong></p>
+            <p>Kuran Rehberim ("the app", "we") values your privacy. This policy explains what data we collect when you use the app, why we process it, and the rights you have.</p>
+        </section>
+
+        <section>
+            <h2>Developer</h2>
+            <p>
+                <strong>Asil Koray Alma</strong><br>
+                Contact: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a><br>
+                Turkey
+            </p>
+        </section>
+
+        <section>
+            <h2>What We Collect</h2>
+
+            <h3>1) Account information (only if you sign up)</h3>
+            <ul>
+                <li>Email address (via Sign in with Apple or email + password)</li>
+                <li>Display name (if you set one)</li>
+                <li>Apple User ID (when using Sign in with Apple)</li>
+            </ul>
+            <p>Used for authentication and cross-device sync.</p>
+
+            <h3>2) Location data (with your permission)</h3>
+            <ul>
+                <li>Coarse (approximate) location</li>
+                <li>Used only to calculate prayer times and find the nearest mosque.</li>
+                <li><strong>Location stays on your device; it is never transmitted to our servers.</strong></li>
+                <li>You can disable it any time via iOS Settings → Kuran Rehberim → Location.</li>
+            </ul>
+
+            <h3>3) In-app preferences</h3>
+            <ul>
+                <li>Favorite verses, Khatim progress, Esma counters, reciter preference, birth date, madhab and language choice.</li>
+                <li>Stored locally first; if you sign in, also on our secure server (Supabase).</li>
+                <li>If iCloud Sync is enabled, stored in your private iCloud container (Apple's privacy rules apply).</li>
+            </ul>
+
+            <h3>4) Push notification token (with permission)</h3>
+            <ul>
+                <li>Random token issued by Apple Push Notification service.</li>
+                <li>Not linked to any personal identifier.</li>
+            </ul>
+
+            <h3>5) Automatic technical data</h3>
+            <ul>
+                <li>App version, iOS version, crash reports (via Apple TestFlight / Crash Reports).</li>
+                <li><strong>We do NOT collect Advertising Identifier (IDFA).</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>What We Do Not Use</h2>
+            <ul>
+                <li>No advertising networks.</li>
+                <li>No third-party trackers (Google Analytics, Facebook Pixel, etc.).</li>
+                <li>We never sell or rent your data to any company.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How We Use Your Data</h2>
+            <ul>
+                <li>Authenticate and protect your account</li>
+                <li>Sync favorites, khatim, last-read position</li>
+                <li>Provide prayer time calculation and nearest-mosque feature</li>
+                <li>Send daily verse / prayer time reminders if you opt in</li>
+                <li>Diagnose crashes and improve the app</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Third Parties</h2>
+            <p>Limited data is shared with these service providers:</p>
+            <ul>
+                <li><strong>Apple Inc.</strong> — Sign in with Apple, Push Notifications, iCloud, App Store, TestFlight</li>
+                <li><strong>Supabase Inc.</strong> — auth & database backend (only if you sign up)</li>
+                <li><strong>AlQuran Cloud API</strong> — Quran text & translation source (anonymous request, no personal data)</li>
+            </ul>
+            <p>Each is governed by its own privacy policy.</p>
+        </section>
+
+        <section>
+            <h2>Data Retention</h2>
+            <p>When you delete your account, all your data is removed from our servers within <strong>30 days</strong>. Local data on your device is removed when you uninstall the app.</p>
+        </section>
+
+        <section>
+            <h2>Your Rights (GDPR, CCPA, KVKK)</h2>
+            <ul>
+                <li>Access your data</li>
+                <li>Request correction</li>
+                <li>Request full deletion (close your account)</li>
+                <li>Object to processing</li>
+                <li>Data portability</li>
+            </ul>
+            <p>To exercise any right: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>The app is rated 4+ and suitable for all ages. We do not knowingly collect data from children under 13. Parental supervision is recommended.</p>
+        </section>
+
+        <section>
+            <h2>Data Security</h2>
+            <ul>
+                <li>Server traffic is encrypted via HTTPS/TLS.</li>
+                <li>Passwords are hashed by Supabase using bcrypt; never stored in plain text.</li>
+                <li>Sensitive tokens on device are kept in iOS Keychain.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>If we make material changes, the "Last updated" date will be revised and you will be notified inside the app.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Questions or data requests: <a href="mailto:korayfloresh@gmail.com">korayfloresh@gmail.com</a></p>
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Asil Koray Alma — Kuran Rehberim
+    <br>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="privacy.html">Gizlilik</a>
+    <a href="support.html">Destek</a>
+</footer>
+
+<script>
+function setLang(lang) {
+    document.getElementById('content-tr').style.display = (lang === 'tr') ? 'block' : 'none';
+    document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
+    document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    if (history.replaceState) {
+        history.replaceState(null, '', '#' + lang);
+    }
+}
+// URL hash'e göre başlangıç dili
+if (window.location.hash === '#en') setLang('en');
+</script>
+
+</body>
+</html>
